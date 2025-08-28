@@ -14,4 +14,8 @@ Rails.application.routes.draw do
 
   get 'home/index' => 'home#index'
 
+  get 'home/getquerystringvalues' => 'home#getquerystringvalues'
+
+  get 'home/passDataToViews' => 'home#passDataToViews'
+
 end
